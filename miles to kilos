@@ -2,8 +2,8 @@ def feet_to_inches(miles):
     return miles * 1.60934
 
 def main():
-    miles = float(input("Enter the number of miles driven: "))
-    kilometers = miles_to_kilometers(miles)
+    feet = float(input("Enter the number of miles driven: "))
+    inches = feet_to_inches(feet)
     
     print(f"Total miles driven: {miles} miles")
     print(f"Total kilometers driven: {kilometers:.2f} kilometers")
