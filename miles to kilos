@@ -1,4 +1,4 @@
-def feet_to_inches(miles):
+def feet_to_inches(feet):
     return feet * 3
 
 def main():
