@@ -1,2 +1,12 @@
-for w range(5):
-  print ('A number:', w)
+def feet_to_inches(feet):
+    return feet * 3
+
+def main():
+    feet = float(input("Enter the number of miles driven: "))
+    inches = feet_to_inches(feet)
+    
+    print(f"Total miles driven: {miles} miles")
+    print(f"Total kilometers driven: {kilometers:.2f} kilometers")
+
+if __name__ == "__main__":
+    main()
